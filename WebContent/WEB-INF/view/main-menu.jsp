@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 
 <body>
 <h2> Spring MVC Demo - Home Page</h2>
 
-<a href="showForm">Link to show Form request mapping</a>
+<a href="hello/showForm">Link to show Form request mapping</a>
 </body>
 
 </html>
