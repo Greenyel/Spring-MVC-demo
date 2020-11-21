@@ -16,6 +16,12 @@
 
 Country: ${student.country} <!--at this part, spring will call Student.getCountry() method -->
 
+<br><br>
+
+Favorite Language: ${student.favoriteLanguage}
+
+<br><br>
+
 </body>
 
 </html>
