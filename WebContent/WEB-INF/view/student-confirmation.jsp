@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
 <!DOCTYPE HTML>
 
 <html>
@@ -19,6 +20,18 @@ Country: ${student.country} <!--at this part, spring will call Student.getCountr
 <br><br>
 
 Favorite Language: ${student.favoriteLanguage}
+
+<br><br>
+
+Familiar with Operating Systems: 
+
+<ul>
+	<c:forEach var="temp" items="${student.operatingSystems}">
+
+		<li> ${temp} </li>
+
+	</c:forEach>
+</ul>
 
 <br><br>
 
