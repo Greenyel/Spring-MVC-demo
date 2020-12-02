@@ -9,7 +9,11 @@
 
 <br><br>
 
-<a href="student/showForm">Link to Student Form request mapping</a>
+<a href="student/showForm">Link to Student /showForm</a>
+
+<br><br>
+
+<a href="customer/showForm">Link to Customer /showForm </a>
 
 </body>
 
