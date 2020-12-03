@@ -10,9 +10,10 @@ public class Customer {
 
 	private String firstName;
 	
+	@NotNull(message="passed Integer is empty, this field is required")
 	@Min(value=0, message="must be greater then or equal to zero")
 	@Max(value=10, message="must be len then or equal to 10")
-	private int freePasses;
+	private Integer freePasses;
 	
 	@NotNull(message="passed String is empty, this field is required")
 	@Size(min=1, message="is required")
@@ -37,11 +38,11 @@ public class Customer {
 		this.lastName = lastName;
 	}
 
-	public int getFreePasses() {
+	public Integer getFreePasses() {
 		return freePasses;
 	}
 
-	public void setFreePasses(int freePasses) {
+	public void setFreePasses(Integer freePasses) {
 		this.freePasses = freePasses;
 	}
 
